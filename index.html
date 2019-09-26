@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+    <title>优惠商城</title>
+    <script type="text/javascript">!function (e) {
+      function t() {
+        var e = d.getBoundingClientRect().width;
+        u = e / 37.5, d.style.fontSize = u + "px"
+      }
+
+      function n() {
+        o.body && (o.body.style.fontSize = 14 / (i / 37.5) + "rem")
+      }
+      var i = 375, o = e.document, d = o.documentElement, c = d.getBoundingClientRect().width,
+        u = (window.devicePixelRatio || 1, c / 37.5), l = null;
+      e.addEventListener("resize", function () {
+        clearTimeout(l), l = setTimeout(t, 300)
+      }, !1), n(), "complete" === o.readyState ? n() : o.addEventListener("DOMContentLoaded", function () {
+        n()
+      }, !1), t()
+    }(window);</script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
